@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        main{
+            padding: 30px;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: antiquewhite;
+        }
+        .nav-item {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-item>li {
+            margin-left: 30px;
+        }
+
+        .nav-item>li>a {
+           text-decoration: none;
+           color: black;
+        }
+
+        .auth-navigation{
+            margin-right: 10px;
+        }
+
+        .auth-navigation>a{
+            border: 1px solid blue;
+            padding: 8px;
+            border-radius: 5px 5px;
+            text-decoration: none;
+        }
+        .auth-navigation>a:hover{
+            color: white;
+            background-color: blue;
+            transition: ease-in-out 0.3s;
+            text-decoration: none;
+        }
+
+        form {
+            width: 100%;
+        }
+
+        .form-control {
+            width: 100%;
+            border-radius: 5px;
+            padding: 5px;
+            border: rgba(46, 46, 255, 0.61) 1px solid;
+            margin-top: 2px;
+        }
+
+        .form-control:focus {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="nav">
+            <ol class="nav-item">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About me</a> </li>
+                <li><a href="/works.html">Works</a> </li>
+                <li><a href="/education.html">Education</a> </li>
+                <li><a href="/experience.html">Experince</a> </li>
+                <li><a href="/contact.html">Contact </a> </li>
+            </ol>
+            <ol class="auth-navigation">
+                <a href="">Login</a>
+            </ol>
+        </div>
+    </header>
+    <!-- content -->
+    <main>
+        <h1>Education</h1>
+    </main>
+    <!-- footer -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
